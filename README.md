@@ -1,5 +1,12 @@
 # ecs-terraform-terragrunt
 This repository contains terraform code to deploy a simple ghost api container on ECS Fargate cluster with an application load balancer and autoscaling group
+![](https://i.imgur.com/waxVImv.png)
+
+# Roadmaps are now interactive, you can click the nodes to read more about the topics.
+
+### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+
+![](https://i.imgur.com/waxVImv.png)
 
 ## Methodology
 - I am using [terraform](https://www.terraform.io/) and [terragrunt](https://terragrunt.gruntwork.io/) for expressing the infrastructure resources in AWS cloud.
@@ -111,14 +118,17 @@ __NOTE__: These instructions are for Linux
 - Automated autoscaling of tasks could be configured using [aws_appautoscaling_target](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/appautoscaling_target) and [aws_appautoscaling_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/appautoscaling_policy) resources.
 - A dockerfile for the application could be added to the `terragrunt/applications/ecs_application` folder which would be built, using [docker](https://registry.terraform.io/providers/kreuzwerker/docker/latest) provider and deployed to `Fargate`.
 
+I'm are always open to your feedback.  Please contact as bellow information:
 ### [Contact ]
 * [Name: nho Luong]
 * [Skype](luongutnho_skype)
 * [Github](https://github.com/nholuongut/)
 * [Linkedin](https://www.linkedin.com/in/nholuong/)
-* [Email Address](luongutnho@hotmail.com) 
+* [Email Address](luongutnho@hotmail.com)
 
+![](https://i.imgur.com/waxVImv.png)
+![](bitfield.png)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
 
 # License
-* Nho Luong (c) 2024
+* Nho Luong (c). All Rights Reserved.
